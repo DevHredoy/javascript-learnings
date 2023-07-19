@@ -1,0 +1,49 @@
+/* //reset code starts */
+
+/* after
+  we
+  used
+  this
+  below
+  css
+  property
+  all
+  the
+  contents
+  in
+  grand
+  parent
+  div
+  came
+  closer */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* reset code ends */
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+/* posts starts here */
+.posts {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* posts end here */
+.post {
+  width: 23%;
+  margin: 0.1rem;
+  background-color: darkgrey;
+  box-shadow: 0 4px 8px 0 rgb(189, 189, 185);
+  padding: 1rem;
+}
+
+.post:hover {
+  box-shadow: 0 4px 16px 0 olive;
+}
