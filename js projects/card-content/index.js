@@ -7,9 +7,16 @@ const fecthData = async (config) => {
   }
 };
 
+
+
+
+
 // selection
 const postsElement = document.querySelector(".posts");
+//if not async function used , while data fetching from the source the execution shall move to the nexxt statement
+// without fetching data and this would create error
 
+//the await sequence will be maintained only inside a async function
 const loadAllData = async () => {
   const posts = await fecthData("https://jsonplaceholder.typicode.com/posts");
 
